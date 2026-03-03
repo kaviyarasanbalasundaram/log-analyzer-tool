@@ -1,0 +1,5 @@
+BRUTE_FORCE_THRESHOLD = 5
+TIME_WINDOW_SECONDS = 60
+
+SQLI_PATTERNS = ["UNION SELECT", "' OR '1'='1"]
+XSS_PATTERNS = ["<script>", "javascript:"]
